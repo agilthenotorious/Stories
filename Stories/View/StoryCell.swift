@@ -1,3 +1,5 @@
+import SwiftUI
+
 struct StoryCell: View {
     let story: Story
     

@@ -1,3 +1,5 @@
+import SwiftUI
+
 struct StoryFullScreenView: View {
     @ObservedObject var viewModel: StoryViewModel
     @Binding var currentIndex: Int

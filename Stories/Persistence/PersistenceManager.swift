@@ -1,3 +1,5 @@
+import Foundation
+
 class PersistenceManager {
     private let seenKey = "seenStories"
     private let likedKey = "likedStories"

@@ -1,3 +1,5 @@
+import SwiftUI
+
 class StoryViewModel: ObservableObject {
     @Published var stories: [Story] = []
     private var originalStories: [Story] = []

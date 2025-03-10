@@ -1,3 +1,5 @@
+import Foundation
+
 struct Story: Identifiable, Codable, Equatable {
     let id: Int
     let name: String

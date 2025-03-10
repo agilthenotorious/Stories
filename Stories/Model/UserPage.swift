@@ -1,3 +1,5 @@
+import Foundation
+
 struct UserPage: Codable {
-    let users: [UserJSON]
+    let users: [User]
 }
